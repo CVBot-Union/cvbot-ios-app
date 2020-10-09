@@ -14,7 +14,8 @@
 		6323B88925147BDB007AEDDB /* CVTwiPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6323B88825147BDB007AEDDB /* CVTwiPushTests.swift */; };
 		6323B89425147BDB007AEDDB /* CVTwiPushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6323B89325147BDB007AEDDB /* CVTwiPushUITests.swift */; };
 		638B048C252DF04D0059368E /* TweetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B048B252DF04D0059368E /* TweetCard.swift */; };
-		638B0491252DFDB30059368E /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B0490252DFDB30059368E /* Appearance.swift */; };
+		63BD6230252FF6FC00090DDF /* TweetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BD622F252FF6FB00090DDF /* TweetList.swift */; };
+		63BD62382530065200090DDF /* TwitterMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BD62372530065100090DDF /* TwitterMedia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		6323B89325147BDB007AEDDB /* CVTwiPushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVTwiPushUITests.swift; sourceTree = "<group>"; };
 		6323B89525147BDB007AEDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		638B048B252DF04D0059368E /* TweetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCard.swift; sourceTree = "<group>"; };
-		638B0490252DFDB30059368E /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		63BD622F252FF6FB00090DDF /* TweetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetList.swift; sourceTree = "<group>"; };
+		63BD62372530065100090DDF /* TwitterMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMedia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,8 @@
 				6323B87F25147BDB007AEDDB /* Info.plist */,
 				6323B87C25147BDB007AEDDB /* Preview Content */,
 				638B048B252DF04D0059368E /* TweetCard.swift */,
-				638B0490252DFDB30059368E /* Appearance.swift */,
+				63BD622F252FF6FB00090DDF /* TweetList.swift */,
+				63BD62372530065100090DDF /* TwitterMedia.swift */,
 			);
 			path = CVTwiPush;
 			sourceTree = "<group>";
@@ -265,10 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BD62382530065200090DDF /* TwitterMedia.swift in Sources */,
 				6323B87925147BDA007AEDDB /* GroupTimeline.swift in Sources */,
 				6323B87725147BDA007AEDDB /* CVTwiPushApp.swift in Sources */,
+				63BD6230252FF6FC00090DDF /* TweetList.swift in Sources */,
 				638B048C252DF04D0059368E /* TweetCard.swift in Sources */,
-				638B0491252DFDB30059368E /* Appearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
